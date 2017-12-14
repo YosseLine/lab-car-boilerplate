@@ -1,1 +1,65 @@
-/* Los estilos de tu proyecto */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*Estilos generales para el body*/
+body{
+  color: #FFF;
+}
+/*Estilos para navbar*/
+.pull-right{
+  float: right !important;
+}
+.navbarLabcar{
+  border: none;
+  margin-bottom: 0;
+  background-color: #FFF;
+  padding: 10px 0px;
+}
+.navbar-brand>img{
+  width: 100px;
+}
+.hidden{
+  display: none !important;
+}
+.logo-labcar-hero{
+  width: 65px;
+}
+/*Estilos para section Hero*/
+.hero{
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+  background-image: url('../assets/images/taxi.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.enjoy-the-travel-hero{
+  background-color: #f7b617;
+  display: inline-block;
+  float: right;
+  margin-top: 45vh;
+  border-radius: 10px;
+}
+.enjoy-the-travel-hero h2, .enjoy-the-travel-hero p{
+  padding: 5px 40px 5px 30px;
+}
+.enjoy-the-travel-hero button{
+  background: #FFF;
+  font-weight: 600;
+  color: #000;
+  padding: 10px;
+  margin: 0 0 20px 20px;
+  border-radius: 13px
+}
+
+/*Estilos para section nueva app*/
+.background-section-new-app{
+  background-color: #f7b617;
+}
+.newApp{
+  outline: 1px solid #FFF;
+  margin: 30px 12px;
+}
