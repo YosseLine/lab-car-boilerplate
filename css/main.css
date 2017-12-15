@@ -45,15 +45,15 @@ body{
 }
 .enjoy-the-travel-hero button{
   background: #FFF;
-  font-weight: 600;
   color: #000;
   padding: 10px;
   margin: 0 0 20px 10px;
-  border-radius: 13px
+  border-radius: 13px;
+  border: none;
 }
 
-/*Estilos para section nueva app*/
-.background-section-new-app{
+/*Estilos para section new app*/
+.background-section-yellow{
   background-color: #f7b617;
 }
 .newApp{
@@ -69,4 +69,59 @@ body{
   display: inline-block;
   max-width: 70%;
   height: auto;
+}
+
+/*Estilos para section conductor*/
+.background-section-conductor{
+  background-image: url('../assets/images/conduce.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.conduce-content{
+  padding: 11vh 5vw;
+  background-color: rgba(52, 52, 52, 0.45);
+  height: 54vh;
+}
+.background-section-conductor .conduce-content button{
+  background: #f7b617;
+  border-radius: 13px;
+  color: #FFF;
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+}
+
+/*Estilos para section tarifa*/
+.padding-tarifa{
+  padding: 20px 30px 20px 20px;
+}
+.background-section-yellow .padding-tarifa form .form-group img{
+  margin-right: 10px;
+}
+.form-group input[type="text"]{
+  background:none;
+  border: 1px solid #fff;
+  width: 88%;
+  display: inline-block;
+  color: #FFF;
+}
+.background-section-yellow button{
+  background: #FFF;
+  color: #000;
+  padding: 10px;
+  margin: 0 0 3vh 25vw;
+  border-radius: 13px;
+  border: none;
+}
+.container-map{
+  padding: 7px 7px 0 7px;
+  border-radius: 10px;
+  border: 1px solid #FFF;
+}
+.container-map iframe{
+  width: -webkit-fill-available;
+}
+.height-section-tarifa{
+  height: 100vh;
 }

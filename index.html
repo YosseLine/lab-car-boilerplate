@@ -83,7 +83,7 @@
     </section>
 
 <!--Section New app-->
-    <section class="background-section-new-app">
+    <section class="background-section-yellow">
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12">
@@ -103,14 +103,14 @@
     </section>
 
     <!--Section conductor-->
-    <section>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="">
-            <div class="">
-              <h4>Conduce cuando quieras</h4>
-              <p>LabCar e una opción flexible para alcanzar tus metas financieras.</p>
-              <button type="button" class="btn btn-default">Conviértete en conductor</button>
+    <section class="background-section-conductor">
+      <div class="conduce-content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12">
+                <h4>Conduce cuando quieras</h4>
+                <p>LabCar e una opción flexible para alcanzar tus metas financieras.</p>
+                <button type="button" class="btn">Conviértete en conductor</button>
             </div>
           </div>
         </div>
@@ -118,53 +118,61 @@
     </section>
 
     <!--Section tarifas-->
-    <section>
-      <div class="container">
+    <section class="background-section-yellow height-section-tarifa">
+      <div class="container-fluid">
         <div class="row">
-          <div class="">
-            <h4>Tarifas</h4>
-            <p>Cosulta las tarifas LabCar aquí</p>
-            <div class="">
-              <img src="assets/images/shape.png" alt="Ubicación"><input type="text" class="form-control" placeholder="Ubicación">
-              <img src="assets/images/shape2.png" alt="Destino"><input type="text" class="form-control" placeholder="Destino">
-              <a class="btn btn-default lg" href="#" role="button">¡Trazar ruta!</a>
+          <div class="padding-tarifa">
+            <div class="col-xs-12">
+              <h3 class="text-center">Tarifas</h3>
+              <p>Cosulta las tarifas LabCar aquí</p>
+              <form action="index.html" method="post">
+                <div class="form-group">
+                  <img src="assets/images/shape.png" alt="Ubicación"><input type="text" class="form-control" placeholder="Ingresa tu ubicación">
+                </div>
+                <div class="form-group">
+                  <img src="assets/images/shape2.png" alt="Destino"><input type="text" class="form-control" placeholder="Ingresa tu Destino">
+                </div>
+                <button type="button" class="btn btn-default">¡Trazar ruta!</button>
+              </form>
             </div>
           </div>
-        </div>
-        <div class="row">
           <div class="col-xs-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15603.307481509912!2d-77.01614345!3d-12.12399545!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1513206115450" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="container-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15603.307481509912!2d-77.01614345!3d-12.12399545!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1513206115450" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!--Section Footer-->
-    <div class="container-fluid">
-      <div class="row">
-          <img src="assets/images/logoBlanco.png" alt="Logo LabCar">
-      </div>
-      <div class="row">
-        <div class="col-xs-6">
-          <button type="button" class="btn btn-link">Viaja</button>
-          <button type="button" class="btn btn-link">Conduce</button>
-          <button type="button" class="btn btn-link">Ciudades</button>
-          <button type="button" class="btn btn-link">Entrega</button>
-          <button type="button" class="btn btn-link">¿Cómo funciona?</button>
-          <button type="button" class="btn btn-link">Países</button>
-          <button type="button" class="btn btn-link">Seguridad</button>
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+            <img src="assets/images/logoBlanco.png" alt="Logo LabCar">
         </div>
-        <div class="col-xs-6">
-          <img src="assets/images/enBadgeWebGeneric.png" alt="Play Store">
-          <img src="assets/images/appstore.png" alt="Apple">
+        <div class="row">
+          <div class="col-xs-6">
+            <button type="button" class="btn btn-link">Viaja</button>
+            <button type="button" class="btn btn-link">Conduce</button>
+            <button type="button" class="btn btn-link">Ciudades</button>
+            <button type="button" class="btn btn-link">Entrega</button>
+            <button type="button" class="btn btn-link">¿Cómo funciona?</button>
+            <button type="button" class="btn btn-link">Países</button>
+            <button type="button" class="btn btn-link">Seguridad</button>
+          </div>
+          <div class="col-xs-6">
+            <img src="assets/images/enBadgeWebGeneric.png" alt="Play Store">
+            <img src="assets/images/appstore.png" alt="Apple">
+          </div>
+        </div>
+        <div class="row">
+          <hr>
+          <address> © 2017 LabCar technologies Inc.</address>
+          <hr>
         </div>
       </div>
-      <div class="row">
-        <hr>
-        <address> © 2017 LabCar technologies Inc.</address>
-        <hr>
-      </div>
-    </div>
+    </footer>
 
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
