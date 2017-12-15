@@ -26,7 +26,7 @@ body{
 /*Estilos para section Hero*/
 .hero{
   position: relative;
-  height: 90vh;
+  height: 74vh;
   overflow: hidden;
   background-image: url('../assets/images/taxi.jpg');
   background-size: cover;
@@ -118,10 +118,29 @@ body{
   padding: 7px 7px 0 7px;
   border-radius: 10px;
   border: 1px solid #FFF;
+  margin-bottom: 5vh;
 }
 .container-map iframe{
   width: -webkit-fill-available;
 }
-.height-section-tarifa{
-  height: 100vh;
+
+/*Estilos para footer*/
+footer{
+  background-color:#2b2b2b;
+}
+.padding-img-labcar-footer{
+  padding: 20px 10px 0 15px;
+}
+footer a, footer button.btn.btn-link{
+  color: #FFF;
+}
+footer button.btn.btn-link{
+  display: block;
+}
+footer .links-external-footer .visible-xs a{
+  margin-right: 10px;
+}
+footer .links-external-footer img{
+  width: 70%;
+  margin-top: 20px;
 }
