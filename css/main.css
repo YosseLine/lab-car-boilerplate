@@ -23,6 +23,9 @@ body{
 .logo-labcar-hero{
   width: 65px;
 }
+ul.nav li a{
+  color: #000;
+}
 /*Estilos para section Hero*/
 .hero{
   position: relative;
