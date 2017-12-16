@@ -36,13 +36,42 @@
                  <ul class="nav">
                    <li class="active"><a href="#">Viaja</a></li>
                    <li><a href="#">Conduce</a></li>
-                   <li><a href="#">Iniciar Sesión</a></li>
+                   <li><a href="#" data-toggle="modal" data-target="#modal-sesion">Iniciar Sesión</a></li>
                  </ul>
-               </div><!-- /.navbar-collapse -->
-             </div>
+               </div>
+        </div><!-- /.container-fluid -->
+
+        <!--Modal iniciar seión-->
+        <div id="modal-sesion" class="modal fade" role="dialog">
+          <div class="modal-dialog modal-md">
+           <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <img  class="image-modal-sesion col-xs-4 col-xs-offset-4" src="assets/images/user.png" alt="User">
            </div>
-    </div><!-- /.container-fluid -->
-   </nav>
+           <div class="modal-body">
+             <form class="form">
+              <div class="form-group col-xs-8 col-xs-offset-2">
+                <label class="sr-only">Username</label>
+                <div class="input-group">
+                  <div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div>
+                  <input type="text" class="form-control" placeholder="Username">
+                </div>
+                <div class="input-group">
+                  <div class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></div>
+                  <input type="text" class="form-control" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-bottom">
+                  <button type="submit" class="btn btn-primary">LOGING</button>
+                <p>¿Forgot password?<a href="#">Click Here</a></p>
+              </div>
+            </form>
+           </div>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </div>
+    </nav>
  </header>
 
     <!--Section hero-->
@@ -64,12 +93,61 @@
                   <div class="hidden-xs">
                     <h3>Disfruta del viaje <br> Eres dueño de tu tiempo</h3>
                     <p>Viaja con <img class="logo-labcar-hero-desktop" src="assets/images/logoBlanco.png" alt="Logo LabCar"></p>
-                    <a class="btn btn-default" href="#" role="button">Regístrate</a>
+                    <a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#modal-register">Regístrate</a>
                     ______________ <p>O bien</p> ______________
                     <a class="btn btn-default" href="#" role="button">Conviértete en un conductor</a>
                   </div>
                 </div>
               </div>
+              <!--Modal registrate-->
+              <div id="modal-register" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-md">
+                 <div class="modal-content col-xs-12">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 </div>
+                 <div class="modal-body">
+                   <a class="btn btn-default col-xs-12" href="#" role="button">¿Ya tienes una cuenta?</a>
+                   <h3 class="text-center">O crea una cuenta nueva</h3>
+                   <div class="row">
+                     <div class="col-xs-6">
+                       <input type="text" class="form-control" placeholder="Nombre">
+                     </div>
+                     <div class="col-xs-6">
+                       <input type="text" class="form-control" placeholder="Apellido">
+                     </div>
+                     <div class="col-xs-12">
+                       <input type="text" class="form-control" placeholder="Correo electrónico">
+                     </div>
+                     <div class="col-xs-12">
+                       <input type="text" class="form-control" placeholder="Teléfono">
+                     </div>
+                     <div class="col-xs-12">
+                       <input type="text" class="form-control" placeholder="Contraseña">
+                     </div>
+                     <div class="col-xs-12">
+                       <input type="text" class="form-control" placeholder="Ciudad">
+                     </div>
+                     <div class="col-xs-12">
+                        <input type="text" class="form-control" placeholder="(Opcional) Código de invitación">
+                     </div>
+                   </div>
+                   <!-- Large button group -->
+                  <div class="btn-group col-xs-12">
+                    <button class="btn btn-default btn-lg dropdown-toggle col-xs-12" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Cómo te enteraste de nosotros?<span class="caret"></span></button>
+                    <ul class="dropdown-menu col-xs-12">
+                      <li><a href="#">Facebook</a></li>
+                      <li><a href="#">Internet</a></li>
+                      <li><a href="#">Periódico</a></li>
+                      <li><a href="#">TV</a></li>
+                      <li><a href="#">Otros</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-default col-xs-12" href="#" role="button">Enviar</a>
+                 </div>
+                </div><!-- /.navbar-collapse -->
+              </div>
+            </div>
             </div>
         </div>
     </section>
@@ -104,10 +182,96 @@
                 <div class="conduce-content">
                   <h4>Conduce cuando quieras</h4>
                   <p>LabCar e una opción flexible para alcanzar tus metas financieras.</p>
-                  <a class="btn btn-default" href="#" role="button">Conviértete en conductor</a>
+                  <a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#modal-conductor">Conviértete en conductor</a>
                 </div>
               </div>
+              <!--Modal conductor-->
+              <div id="modal-conductor" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-md">
+                 <div class="modal-content col-xs-12">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 </div>
+                 <div class="modal-body">
+                   <div class="row">
+                     <div class="col-xs-12">
+                       <p>¿Tienes vehículos de cuatro puertas?</p>
+                       <div class="btn-group col-xs-12">
+                         <button type="button" class="btn btn-default col-xs-10">Si</button>
+                         <button type="button" class="btn btn-default dropdown-toggle col-xs-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <span class="caret"></span>
+                           <span class="sr-only">Toggle Dropdown</span>
+                         </button>
+                         <ul class="dropdown-menu col-xs-12">
+                           <li><a href="#">Si</a></li>
+                           <li><a href="#">No</a></li>
+                         </ul>
+                       </div>
+                     </div>
+                     <div class="col-xs-12">
+                       <p>Marca</p>
+                       <div class="btn-group col-xs-12">
+                         <button type="button" class="btn btn-default col-xs-10">Elige la marca del vehículo</button>
+                         <button type="button" class="btn btn-default dropdown-toggle col-xs-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <span class="caret"></span>
+                           <span class="sr-only">Toggle Dropdown</span>
+                         </button>
+                         <ul class="dropdown-menu col-xs-12">
+                           <li><a href="#">Jeep</a></li>
+                           <li><a href="#">Toyota</a></li>
+                           <li><a href="#">Mercedes-Benz</a></li>
+                           <li><a href="#">Honda</a></li>
+                           <li><a href="#">Nissan</a></li>
+                         </ul>
+                       </div>
+                       <p class="info-conductor">¿No ves tu vehículo en la lista? Envía un correo electrónico a sociosmdv@labcar.com</p>
+                     </div>
+                     <div class="col-xs-12">
+                       <p>Modelo</p>
+                       <div class="btn-group col-xs-12">
+                         <button type="button" class="btn btn-default col-xs-10">Modelo 1</button>
+                         <button type="button" class="btn btn-default dropdown-toggle col-xs-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <span class="caret"></span>
+                           <span class="sr-only">Toggle Dropdown</span>
+                         </button>
+                         <ul class="dropdown-menu col-xs-12">
+                           <li><a href="#">Modelo 1</a></li>
+                           <li><a href="#">Modelo 2</a></li>
+                           <li><a href="#">Modelo 3</a></li>
+                           <li><a href="#">Modelo 4</a></li>
+                           <li><a href="#">Modelo 5</a></li>
+                         </ul>
+                       </div>
+                     </div>
+                     <div class="col-xs-12">
+                       <p>Año</p>
+                       <div class="btn-group col-xs-12">
+                         <button type="button" class="btn btn-default col-xs-10">2017</button>
+                         <button type="button" class="btn btn-default dropdown-toggle col-xs-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <span class="caret"></span>
+                           <span class="sr-only">Toggle Dropdown</span>
+                         </button>
+                         <ul class="dropdown-menu col-xs-12">
+                           <li><a href="#">2017</a></li>
+                           <li><a href="#">2016</a></li>
+                           <li><a href="#">2015</a></li>
+                           <li><a href="#">2014</a></li>
+                           <li><a href="#">2013</a></li>
+                         </ul>
+                       </div>
+                     </div>
+                     <div class="col-xs-12">
+                       <p>Número de la matrícula</p>
+                       <input type="text" class="form-control" placeholder="Número de la matrícula">
+                       <p class="info-conductor">La información de la matrícula ayuda a los clientes a identificar tu vehículo</p>
+                     </div>
+                   </div>
+                  <a class="btn btn-default col-xs-12" href="#" role="button">Enviar</a>
+                 </div>
+                </div><!-- /.navbar-collapse -->
+              </div>
             </div>
+          </div>
         </div>
     </section>
 

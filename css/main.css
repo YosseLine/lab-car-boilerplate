@@ -156,7 +156,9 @@ footer .links-external-footer img{
   width: 50%;
   margin-top: 20px;
 }
-
+ #modal-sesion div.form-bottom{
+  margin-left: 0%;
+}
 /*Modificando responsive*/
 
 @media (min-width: 768px){
@@ -244,6 +246,9 @@ footer .links-social-footer a {
 .text-left{
   text-align: left;
 }
+#modal-sesion div.form-bottom{
+ margin-left: 20%;
+}
 }
 
 
@@ -266,6 +271,9 @@ footer .links-social-footer a {
 .logo-labcar-hero-desktop{
   width: 70px;
   margin-left: 20px;
+}
+#modal-sesion div.form-bottom{
+ margin-left: 20%;
 }
 }
 
@@ -298,4 +306,83 @@ footer .links-social-footer a {
 .links-external-footer {
   padding-top: 20vh;
 }
+}
+
+/*Estilos para modales*/
+
+/*Modal navBar*/
+#modal-sesion{
+  background: rgba(52, 52, 52, 0.8);
+}
+.modal-content{
+  background: rgb(247,182,23);
+}
+.form-bottom{
+  display: table;
+  overflow: auto;
+  margin-left: 20%;
+}
+#modal-sesion div.input-group{
+  padding: 20px 0;
+}
+.form-bottom button{
+  float: right;
+  margin-bottom: 10px;
+}
+.form-bottom p{
+  display: table-footer-group;
+}
+.form-bottom p>a{
+  padding-left: 10px;
+}
+#modal-sesion .form{
+  padding: 40px 20px
+}
+
+/*Modal register*/
+#modal-register{
+  overflow: hidden;
+}
+#modal-register .modal-header{
+  border-bottom: none;
+  padding: 7px;
+}
+#modal-register .modal-body>a.btn.btn-default.col-xs-12{
+  background: rgba(43,43,43,0.7);
+  color: #FFF;
+  margin-bottom: 20px;
+}
+#modal-register .modal-body .row div.col-xs-6, #modal-register .modal-body .row div.col-xs-12{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#modal-register .modal-body div.btn-group.col-xs-12{
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+/*Modal conductor*/
+#modal-conductor .modal-header{
+  border-bottom: none;
+  padding: 7px;
+}
+#modal-conductor .btn-group{
+  padding: 0;
+}
+#modal-conductor .modal-body{
+  padding-top: 0;
+}
+#modal-conductor .info-conductor{
+  font-size: 13px;
+  padding-right: 30px;
+}
+#modal-conductor .modal-body div.col-xs-12{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#modal-conductor .modal-body a.btn.btn-default.col-xs-12{
+  background: rgbA(43,43,43,0.7);
+  color: #FFF;
+  margin-bottom: 20px;
 }
