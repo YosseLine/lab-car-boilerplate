@@ -39,7 +39,7 @@
 
 - El width original del mapa que se insertó en la página fue modificado para una mejor UX.
 
-- Los borders de los botones fueron modificados para una mejor experiencia. 
+- Los bordes de los botones fueron modificados para una mejor experiencia. 
 
 - Éste reto fue realizado con Bootstrap.
 
