@@ -15,7 +15,7 @@
 
 ***
 
-## Datos deñ reto:
+## Datos del reto:
 
 - El reto se basó en replicar la versión web, con su respectiva versión móvil de la página web 'LabCar'.
 
