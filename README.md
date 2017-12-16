@@ -31,6 +31,18 @@
 
 ![LabCar](assets/images/desktop.png)
 
+* Modal de Iniciar sesión:
+
+![LabCar](assets/images/modal1.png)
+
+* Modal de Regísrate:
+
+![LabCar](assets/images/moda2.png)
+
+* Modal de Conviértete en conductor:
+
+![LabCar](assets/images/moda3.png)
+
 ***
 
 ## Consideraciones:
@@ -39,7 +51,9 @@
 
 - El width original del mapa que se insertó en la página fue modificado para una mejor UX.
 
-- Los bordes de los botones fueron modificados para una mejor experiencia. 
+- Los bordes de los botones fueron modificados para una mejor experiencia.
+
+- Los modales han sido modificados para conservar las tonalidades de la página.
 
 - Éste reto fue realizado con Bootstrap.
 
