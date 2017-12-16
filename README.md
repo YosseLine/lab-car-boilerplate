@@ -37,11 +37,11 @@
 
 * Modal de Regísrate:
 
-![LabCar](assets/images/moda2.png)
+![LabCar](assets/images/modal2.png)
 
 * Modal de Conviértete en conductor:
 
-![LabCar](assets/images/moda3.png)
+![LabCar](assets/images/modal3.png)
 
 ***
 
