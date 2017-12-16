@@ -177,9 +177,7 @@ footer .links-external-footer img{
   margin-left: 10px;
 }
 .enjoy-the-travel-hero a{
-  margin-right: 19vw;
-  display: block;
-  margin-top: 10px;
+  display: table;
 }
 .enjoy-the-travel-hero p{
   display: inline-block;
