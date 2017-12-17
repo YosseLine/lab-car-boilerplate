@@ -76,6 +76,9 @@ ul.nav li a{
 #section-conductor .container-fluid .row{
   margin-right: 0;
 }
+#section-conductor .container-fluid{
+  padding-right: 0;
+}
 .background-section-conductor{
   background-image: url('../assets/images/conduce.jpg');
   background-size: cover;

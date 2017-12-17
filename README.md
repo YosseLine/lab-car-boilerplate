@@ -11,7 +11,7 @@
 
 ## Objetivos:
 
-- Crear una página web utilizando frameworks.
+- Crear una página web utilizando el framework 'Bootstrap'.
 
 ***
 
@@ -55,7 +55,7 @@
 
 - Los modales han sido modificados para conservar las tonalidades de la página.
 
-- Éste reto fue realizado con Bootstrap.
+- Éste reto fue realizado con el framework Bootstrap y sin usar la propiedad flexbox, para observar como sería el resultado de la página sin dicha propiedad. (Para observar el resultado con la propiedad flexbox, consulte el repositorio nombrado 'lab-car-materialize')
 
 ***
 
